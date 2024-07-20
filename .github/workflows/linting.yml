@@ -1,0 +1,12 @@
+name: linting
+run-name: checking if project is linted with eslint
+on: [push]
+jobs: 
+  lint-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '21'
+      - run: npm ci
+      - run: npm run lint

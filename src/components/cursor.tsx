@@ -15,7 +15,7 @@ export default function Cursor() {
         return (() => {
             window.removeEventListener('mousemove', handler);
         });
-    }, []);
+    }, [handler]);
 
     return (
         <div
