@@ -1,0 +1,12 @@
+@keyframes underlineAnimation {
+    0% {
+        background-size: 0% 5px;
+    }
+    100% {
+        background-size: 100% 5px;
+    }
+}
+
+.underline-animate {
+    animation: underlineAnimation 0.5s ease-out forwards;
+}
