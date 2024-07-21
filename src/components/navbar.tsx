@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import useActiveLink from "@/hooks/useActiveLink";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export default function NavBar() {
     const sectionIds = ['landing', 'about', 'projects', 'contact'];
@@ -9,7 +9,7 @@ export default function NavBar() {
     const [show, setShow] = useState(true);
     const [lastY, setLastY] = useState(0);
 
-    const handleScroll = (event: Event) => {
+    const handleScroll = useCallback(((event: Event) => {
         if (lastY > window.scrollY) {
             setShow(true);
         } else {
@@ -17,7 +17,7 @@ export default function NavBar() {
         }
 
         setLastY(window.scrollY);
-    }
+    }), [lastY]);
 
     const navLink = (section: string) => {
         return (
