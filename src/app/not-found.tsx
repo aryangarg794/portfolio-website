@@ -22,7 +22,7 @@ export default function notFound() {
                 
                 <Link 
                     href="/"
-                    className="group rounded-lg text-[#e0e1dd] items-center border border-transparent px-5 py-4 transition-colors hover:border-[#415a77] hover:bg-[#1b263b] hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                    className="group rounded-lg text-[#e0e1dd] items-center border border-transparent px-5 py-4 transition-colors hover:border-[#415a77] hover:bg-[#1b263b]"
                 >
                     <h2 className={`text-2xl font-semibold items-center`}>
                         Return Home{" "}

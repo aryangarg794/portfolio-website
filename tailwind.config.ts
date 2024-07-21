@@ -16,7 +16,21 @@ const config: Config = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"]
-      }
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0%' },
+          '100%': { opacity: '100%' },
+        },
+        fadeOut: {
+          '0%': { opacity: '100%' },
+          '100%': { opacity: '0%' },
+        },
+      },
+      animation: { 
+        fadeIn: 'fadeIn 0.35s ease-in-out forwards',
+        fadeOut: 'fadeOut 0.35s ease-in-out forwards',
+      },
     },
   },
   plugins: [],
