@@ -34,7 +34,7 @@ describe('Check that navbar is working as intended', () => {
     })
 
     it('check if clicking resume opens a pdf', () => {
-        cy.get('a#github-button').should('have.attr', 'href').should('eq', '/Aryan_Garg_CV_SPAR.pdf');
+        cy.get('a#resume').should('have.attr', 'href').should('eq', '/Aryan_Garg_CV_SPAR.pdf');
     })
 
 })
