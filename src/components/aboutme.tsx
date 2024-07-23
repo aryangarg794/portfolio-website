@@ -40,17 +40,20 @@ export default function About() {
 
             <div ref={ref} className={`flex flex-col gap-5 items-center text-slate-500 px-5`}>
                 <p className={`text-base text-wrap w-2/5 opacity-0 ${visible ? 'animate-fadeDown animation-delay-100' : ''}`}>
-                    Hi! My name is Aryan and I am an enthusiastic software engineer with an keen interest in ML. 
+                    Hi! My name is Aryan and I am an enthusiastic software engineer with an deep interest in ML. 
                     I recently graduated from{" "}
                     <a href="https://www.tue.nl/en/" target="_blank" className="hover:underline text-[#e0e1dd]">Eindhoven University of Technology</a>
-                    {" "}with a Bachelor in Computer Science and I&apos;m also about to start my masters in AI this fall. 
+                    {" "}with a Bachelor in Computer Science and I&apos;m also about to start my masters in Data Science &#38; AI this fall. 
                 </p>
 
                 <p className={`text-base text-wrap w-2/5 opacity-0 ${visible ? 'animate-fadeDown animation-delay-300' : ''}`}>
-                    I am a quite driven person, ensuring that even the most miniscule of details are fulfilled to perfection.
+                    I am a quite driven person, ensuring that even the most miniscule of details are fulfilled to perfection. I also love to learn, I&apos;m 
+                    always looking for new things to learn, new ways to challenge myself, and new ways to improve my skills. 
                     I also have experience working in a professional environment, working for{" "}
                     <a href="https://starnustech.com/" target="_blank" className="hover:underline text-[#e0e1dd]">Starnus</a>
-                    {" "}&mdash; a robotics and AI company. Through personal and  I&apos;ve racked up experience for the following languages/technologies: 
+                    {" "}&mdash; a robotics and AI company. Through personal and professional experience I&apos;ve gained quite some knowledge in the software domain,
+                    and I&apos;m looking to develop myself further particularly in ML.
+                    I&apos;ve racked up experience for the following languages/technologies: 
                 </p>
 
                 <div className={`flex flex-wrap text-left w-2/5 text-slate-500 opacity-0 ${visible ? 'animate-fadeDown animation-delay-500' : ''}`}>
@@ -67,7 +70,8 @@ export default function About() {
                 <p className={`text-base text-wrap w-2/5 opacity-0 ${visible ? 'animate-fadeDown animation-delay-700' : ''}`}>
                     Apart from working on projects I find interesting, in my free time I often read, draw, or play an instrument &mdash; guitar or keyboard.
                     I&apos;m also an avid{" "} 
-                    <a href="https://steamcommunity.com/profiles/76561198118010462/" target="_blank" className="hover:underline text-[#e0e1dd] cursor-galaxy">gamer</a>, specifically story-driven singleplayer or competitive games.  
+                    <a href="https://steamcommunity.com/profiles/76561198118010462/" target="_blank" className="hover:underline text-[#e0e1dd] cursor-galaxy">gamer</a>
+                    , specifically story-driven singleplayer or competitive games.  
                 </p>
             </div>
         </section>
