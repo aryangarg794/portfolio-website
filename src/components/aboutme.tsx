@@ -67,7 +67,7 @@ export default function About() {
                 <p className={`text-base text-wrap w-2/5 opacity-0 ${visible ? 'animate-fadeDown animation-delay-700' : ''}`}>
                     Apart from working on projects I find interesting, in my free time I often read, draw, or play an instrument &mdash; guitar or keyboard.
                     I&apos;m also an avid{" "} 
-                    <a href="https://steamcommunity.com/profiles/76561198118010462/" target="_blank" className="hover:underline text-[#e0e1dd] cursor-galaxy">gamer</a>, specifically story-driven singleplayer or competetive games.  
+                    <a href="https://steamcommunity.com/profiles/76561198118010462/" target="_blank" className="hover:underline text-[#e0e1dd] cursor-galaxy">gamer</a>, specifically story-driven singleplayer or competitive games.  
                 </p>
             </div>
         </section>
