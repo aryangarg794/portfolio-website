@@ -1,5 +1,5 @@
 import React from 'react'
-import notFound from './not-found'
+import notFound from '../../src/app/not-found'
 
 describe('<notFound />', () => {
   it('renders', () => {
