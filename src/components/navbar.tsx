@@ -29,7 +29,7 @@ export default function NavBar() {
                     
                 }`}
             >
-                <span className="group-hover:text-[#778da9] duration-300 ease-out">
+                <span className="group-hover:text-[#778da9] font-light duration-300 ease-out">
                     {section.charAt(0).toUpperCase() + section.slice(1)}
                 </span>
             </Link>
@@ -62,13 +62,12 @@ export default function NavBar() {
                 <div className="flex flex-row gap-[3rem] text-md font-medium font-mono">
                     {navLink('about')}
                     {navLink('projects')}
-                    {navLink('contact')}
                     <a 
                         href="/Aryan_Garg_CV_SPAR.pdf" 
                         target="_blank" 
-                        className="group rounded-lg border-2 border-[#415a77] px-6 py-3 transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_#415a77] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
+                        className="group rounded-lg border-2 border-[#415a77] px-6 py-3 transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_#415a77] active:translate-x-[0px] active:translate-y-[0px] active:shadow-none"
                     >
-                        <span className="group-hover:text-[#778da9] duration-300 ease-out">Resume</span>
+                        <span className="group-hover:text-[#778da9] transition duration-300 ease-out">Resume</span>
                     </a>
                 </div>
             </div>
