@@ -27,7 +27,7 @@ export const projectinfos = [
     {
         id: 4,
         title: "Portfolio website",
-        description: "Portfolio website built using Next.js. E2E testing using Cypress and unit testing using JUnit. \
+        description: "Portfolio website built using Next.js. E2E testing and component testing using Cypress. \
         Deployed using Vercel.",
         skills: ["Next.js", "React", "Tailwind", "Typescript"],
         gitLink: "https://github.com/aryangarg794/portfolio-website",
