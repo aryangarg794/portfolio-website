@@ -41,7 +41,7 @@ export default function Landing() {
                         href="#about"
                         className="w-fit group rounded-lg border-2 border-[#415a77] px-6 py-3 transition duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_#415a77] active:translate-x-[0px] active:translate-y-[0px] active:shadow-none"
                     >
-                        <span className="flex flex-row gap-2 items-center group-hover:text-[#778da9] transition-all font-bold duration-300 ease-out ">
+                        <span className="flex flex-row gap-2 items-center group-hover:text-[#778da9] transition-all font-bold duration-300 ease-out">
                             Find out more <svg className="h-5 w-5 text-[#e0e1dd] transition-all ease-out duration-300 group-hover:text-[#778da9]"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
                             </svg>

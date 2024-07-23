@@ -26,14 +26,19 @@ export default function About() {
     } 
 
     return (
-        <section id="about" ref={ref} className="flex flex-col gap-16 w-full items-center justify-center pb-52 font-poppins pt-10">
-            <div className="flex items-center w-2/5">
-                <hr className="flex-grow h-[0.5px] bg-[#415a77]/30 border-0" />
-                <span className="mx-4 text-2xl font-bold text-[#e0e1dd]">About Me</span>
-                <hr className="flex-grow h-[0.5px] bg-[#415a77]/30 border-0" />
+        <section id="about" className="flex flex-col gap-16 w-full items-center justify-center pb-52 font-poppins pt-10">
+            <div className="flex flex-col items-center w-full gap-5"> 
+                <div className="flex items-center w-2/5">
+                    <hr className="flex-grow h-[0.5px] bg-[#415a77]/30 border-0" />
+                    <span className="mx-4 text-2xl font-bold text-[#e0e1dd]">About Me</span>
+                    <hr className="flex-grow h-[0.5px] bg-[#415a77]/30 border-0" />
+                </div>
+                <p className="text-base text-wrap w-1/3 text-center text-[#415a77] italic">
+                        A little introduction about me.
+                </p>
             </div>
 
-            <div className={`flex flex-col gap-5 items-center text-slate-500 px-5`}>
+            <div ref={ref} className={`flex flex-col gap-5 items-center text-slate-500 px-5`}>
                 <p className={`text-base text-wrap w-2/5 opacity-0 ${visible ? 'animate-fadeDown animation-delay-100' : ''}`}>
                     Hi! My name is Aryan and I am an enthusiastic software engineer with an keen interest in ML. 
                     I recently graduated from{" "}
@@ -61,7 +66,8 @@ export default function About() {
 
                 <p className={`text-base text-wrap w-2/5 opacity-0 ${visible ? 'animate-fadeDown animation-delay-700' : ''}`}>
                     Apart from working on projects I find interesting, in my free time I often read, draw, or play an instrument &mdash; guitar or keyboard.
-                    I&apos;m also an avid gamer, specifically story-driven singleplayer or competetive games.  
+                    I&apos;m also an avid{" "} 
+                    <a href="https://steamcommunity.com/profiles/76561198118010462/" target="_blank" className="hover:underline text-[#e0e1dd] cursor-galaxy">gamer</a>, specifically story-driven singleplayer or competetive games.  
                 </p>
             </div>
         </section>
