@@ -4,8 +4,8 @@ import "./not-found.css"
 
 export default function notFound() {
     return (
-            <div className="flex min-h-screen font-poppins flex-col items-center justify-between p-36 bg-[#0d1b2a]">
-                <div className="flex flex-col items-center gap-[5vh]">
+            <div id="not-found" className="flex min-h-screen font-poppins flex-col items-center justify-between p-36 bg-[#0d1b2a]">
+                <div id="404icon" className="flex flex-col items-center gap-[5vh]">
                     <Image
                         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                         src="/notfound-svg.svg"
@@ -14,7 +14,7 @@ export default function notFound() {
                         height={100}
                         priority
                     />
-                <h2 className={`text-6xl font-semibold text-[#e0e1dd] transition-all duration-300 ease-in-out`}>
+                <h2 id="notfoundtext" className={`text-6xl font-semibold text-[#e0e1dd] transition-all duration-300 ease-in-out`}>
                     <span className="rounded-lg bg-bottom bg-gradient-to-r from-[#778da9] to-[#778da9] bg-[length:0%_5px] bg-no-repeat underline-animate">
                         Page Not Found
                     </span>
@@ -22,6 +22,7 @@ export default function notFound() {
                 
                 <Link 
                     href="/"
+                    id="returnhomebutton"
                     className="group rounded-lg text-[#e0e1dd] items-center border border-transparent px-5 py-4 transition-colors hover:border-[#415a77] hover:bg-[#1b263b]"
                 >
                     <h2 className={`text-2xl font-semibold items-center`}>

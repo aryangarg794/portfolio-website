@@ -6,10 +6,11 @@ on:
     push:
         branches:
             - main
-    workflow_dispatch:
     workflow_run:
         workflows: ['Testing']
         types: [completed]
+        branches:
+          - main
 jobs:
   Deploy-Production:
     runs-on: ubuntu-latest

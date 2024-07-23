@@ -37,7 +37,7 @@ export default function ButtonScrollTop() {
                 hover:bg-[#415a77] hover:shadow-lg
                 hover:-translate-y-1
                 hover:border-2 hover:border-[#e0e1dd]`}
-            id="btn-back-to-top">
+            id="buttontotop">
             <span className="[&>svg]:w-4">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -30,14 +30,15 @@ export default function Landing() {
                     repeat={0}
                     wrapper="div"
                 />
-                <Link href="/" ref={ref} className={`text-8xl font-bold text-[#e0e1dd] tracking-tight transition duration-300 hover:text-[#778da9] opacity-0 ${visible ? 'animate-fadeDown animation-delay-100' : ''}`}>Aryan Garg</Link>
-                <h2 className="text-4xl font-bold text-[#e0e1dd]/75 opacity-0 animate-fadeDown animation-delay-300">Software Engineer and Student.</h2>
-                <p className="text-base text-wrap w-2/3  text-slate-500 opacity-0 animate-fadeDown animation-delay-500">
+                <Link id="name" href="/" ref={ref} className={`text-8xl font-bold text-[#e0e1dd] tracking-tight transition duration-300 hover:text-[#778da9] opacity-0 ${visible ? 'animate-fadeDown animation-delay-100' : ''}`}>Aryan Garg</Link>
+                <h2 id="software" className="text-4xl font-bold text-[#e0e1dd]/75 opacity-0 animate-fadeDown animation-delay-300">Software Engineer and Student.</h2>
+                <p id="smalldesc" className="text-base text-wrap w-2/3  text-slate-500 opacity-0 animate-fadeDown animation-delay-500">
                     I&apos;m a software engineer and a recent graduate from the{" "} 
                     <a href="https://www.tue.nl/en/" target="_blank" className="hover:underline text-[#e0e1dd]">Eindhoven University of Technology</a>{" "}{" "} in Bachelor of Computer Science. 
                 </p>
-                <div className="flex opacity-0 animate-fadeDown animation-delay-700">
+                <div id="findmore" className="flex opacity-0 animate-fadeDown animation-delay-700">
                     <Link
+                        id="findmorebutton"
                         href="#about"
                         className="w-fit group rounded-lg border-2 border-[#415a77] px-6 py-3 transition duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_#415a77] active:translate-x-[0px] active:translate-y-[0px] active:shadow-none"
                     >

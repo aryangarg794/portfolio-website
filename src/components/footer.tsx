@@ -2,13 +2,13 @@ import Image from "next/image"
 
 export default function Footer() {
     return (
-        <footer className="bg-[#1b263b] text-[#e0e1dd] rounded-lg shadow mx-4 w-full font-mono">
+        <footer id="footer" className="bg-[#1b263b] text-[#e0e1dd] rounded-lg shadow mx-4 w-full font-mono">
             <div className="w-full mx-auto py-2 px-4 md:flex md:items-center md:justify-between">
-            <span className="text-md sm:text-center">2024 | Built by{" "} 
+            <span id="built" className="text-md sm:text-center">2024 | Built by{" "} 
             <a href="https://github.com/aryangarg794/portfolio-website" target="_blank" className="hover:underline">Aryan Garg</a>{" "}using{" "}
             <a href="https://nextjs.org/" className="hover:underline" target="_blank">NextJS</a>.
             </span>
-            <ul className="flex flex-wrap items-center justify-center mt-3 gap-[1.5rem] text-sm font-medium sm:mt-0">
+            <ul id="socials" className="flex flex-wrap items-center justify-center mt-3 gap-[1.5rem] text-sm font-medium sm:mt-0">
                 <li>
                     <a href="https://github.com/aryangarg794" target="_blank">
                     <Image 

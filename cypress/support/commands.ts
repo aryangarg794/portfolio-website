@@ -35,3 +35,34 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('isInViewport', { prevSubject: 'element' }, (subject) => {
+    const bounding = subject[0].getBoundingClientRect();
+    const viewportHeight = Cypress.config('viewportHeight');
+    const viewportWidth = Cypress.config('viewportWidth');
+  
+    const isPartiallyVisible = (
+      bounding.top < viewportHeight &&
+      bounding.bottom > 0 &&
+      bounding.left < viewportWidth &&
+      bounding.right > 0
+    );
+  
+    return cy.wrap(isPartiallyVisible);
+});
+
+Cypress.Commands.add('isNotInViewport', { prevSubject: 'element' }, (subject) => {
+    const bounding = subject[0].getBoundingClientRect();
+    const viewportHeight = Cypress.config('viewportHeight');
+    const viewportWidth = Cypress.config('viewportWidth');
+  
+    const isNotVisible = (
+      bounding.top >= viewportHeight ||
+      bounding.left >= viewportWidth ||
+      bounding.bottom <= 0 ||
+      bounding.right <= 0
+    );
+  
+    return cy.wrap(isNotVisible);
+});
+  
