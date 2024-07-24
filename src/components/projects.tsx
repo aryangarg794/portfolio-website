@@ -21,7 +21,8 @@ export default function Projects() {
             <div id="projects-grid" ref={ref} className="grid w-fit grid-cols-3 gap-4 max-sm-lap:grid-cols-2 max-md:grid-cols-1">
                 {projectinfos.map((element, index) => (
                     <div key={element.id} className={`opacity-0 ${visible ? 'animate-fadeDown animation-delay-' + (element.id * 2 - 1).toString() + '00' : ''}`}>
-                        <div className={`flex flex-col justify-between group shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300 h-[21rem] w-[21rem] p-6 bg-[#1b263b]/85 rounded hover:-translate-y-3
+                        <div className={`flex flex-col justify-between group shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all duration-300 h-[21rem] w-[21rem] p-6 bg-[#1b263b]/85 rounded 
+                        md:hover:-translate-y-3
                          max-tiny-phone:w-[15rem] max-tiny-phone:h-fit max-tiny-phone:gap-10`}>
                             <div className="flex flex-col gap-2">
                                 <div className="flex flex-row justify-between items-center">
