@@ -150,7 +150,7 @@ export default function NavBar() {
             id="navlinks-phone" 
             className={`
                 fixed left-0 md:hidden h-[90%] w-screen flex flex-col gap-8 items-start transition-all duration-500 bg-[#0d1b2a]
-                top-[10%] z-10 p-14 
+                top-[10%] z-10 p-14 font-poppins
                 ${mobileActive ? 'translate-x-0' : '-translate-x-full'}
             `}
         > 
