@@ -7,7 +7,7 @@ export default function notFound() {
             <div id="not-found" className="flex min-h-screen font-poppins flex-col items-center justify-between p-36 bg-[#0d1b2a]">
                 <div id="404icon" className="flex flex-col items-center gap-[5vh]">
                     <Image
-                        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                        className="relative"
                         src="/notfound-svg.svg"
                         alt="Page Not Found"
                         width={300}

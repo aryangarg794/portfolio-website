@@ -12,18 +12,37 @@
     background: rgb(119,141,169);
     background: radial-gradient(circle, rgba(119,141,169,0.15) 0%, rgba(13,27,42,0.15) 75%, rgba(13,27,42,1) 100%);
   }
-  
-  @media screen and (max-width: 768px) {
-    .flare {
-      width: 0;
-      height: 0;
-      transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
-        opacity 0.2s ease-in-out;
-    }
+
+@media screen and (max-width: 1300px) {
+  .flare {
+    width: 45rem;
+    height: 45rem;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
   }
-  .flare.pointer {
-    opacity: 0 !important;
-    transition: width 0.2s ease-in-out, height 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1100px) {
+  .flare {
+    width: 40rem;
+    height: 40rem;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .flare {
+    width: 0;
+    height: 0;
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
+      opacity 0.2s ease-in-out;
+  }
+}
+
+.flare.pointer {
+  opacity: 0 !important;
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
 
   

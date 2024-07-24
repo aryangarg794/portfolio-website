@@ -3,8 +3,8 @@ import Image from "next/image"
 export default function Footer() {
     return (
         <footer id="footer" className="bg-[#1b263b] text-[#e0e1dd] rounded-lg shadow mx-4 w-full font-mono">
-            <div className="w-full mx-auto py-2 px-4 md:flex md:items-center md:justify-between">
-            <span id="built" className="text-md sm:text-center">2024 | Built by{" "} 
+            <div className="w-full mx-auto py-2 px-4 flex items-center justify-between max-md:text-center max-md:flex-col max-md:gap-3">
+            <span id="built" className="text-md">2024 | Built by{" "} 
             <a href="https://github.com/aryangarg794/portfolio-website" target="_blank" className="hover:underline">Aryan Garg</a>{" "}using{" "}
             <a href="https://nextjs.org/" className="hover:underline" target="_blank">NextJS</a>.
             </span>

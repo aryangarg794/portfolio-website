@@ -26,13 +26,13 @@ export default function Landing() {
                     ]}
                     speed={35}
                     cursor={false}
-                    className="text-2xl w-fit min-h-8 font-mono text-[#778da9]"
+                    className="text-2xl max-sm:text-xl w-fit min-h-8 font-mono text-[#778da9]"
                     repeat={0}
                     wrapper="div"
                 />
-                <Link id="name" href="/" ref={ref} className={`text-8xl font-bold text-[#e0e1dd] tracking-tight transition duration-300 hover:text-[#778da9] opacity-0 ${visible ? 'animate-fadeDown animation-delay-100' : ''}`}>Aryan Garg</Link>
-                <h2 id="software" className="text-4xl font-bold text-[#e0e1dd]/75 opacity-0 animate-fadeDown animation-delay-300">Software Engineer and Student.</h2>
-                <p id="smalldesc" className="text-base text-wrap w-2/3  text-slate-500 opacity-0 animate-fadeDown animation-delay-500">
+                <Link id="name" href="/" ref={ref} className={`text-8xl max-sm:text-6xl font-bold text-[#e0e1dd] tracking-tight transition duration-300 hover:text-[#778da9] opacity-0 ${visible ? 'animate-fadeDown animation-delay-100' : ''}`}>Aryan Garg</Link>
+                <h2 id="software" className="text-4xl font-bold max-sm:text-3xl text-[#e0e1dd]/75 opacity-0 animate-fadeDown animation-delay-300">Software Engineer and Student.</h2>
+                <p id="smalldesc" className="text-base text-wrap w-2/3 text-slate-500 opacity-0 animate-fadeDown animation-delay-500">
                     I&apos;m a software engineer and a recent graduate from the{" "} 
                     <a href="https://www.tue.nl/en/" target="_blank" className="hover:underline text-[#e0e1dd]">Eindhoven University of Technology</a>{" "}{" "} in Bachelor of Computer Science. 
                 </p>
