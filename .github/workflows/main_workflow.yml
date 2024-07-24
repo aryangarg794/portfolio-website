@@ -9,6 +9,7 @@ on:
         paths:
             - src/**
             - cypress/**
+            - .github/workflows/**
 
 jobs:
     basic-checks:

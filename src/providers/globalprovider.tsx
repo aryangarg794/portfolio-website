@@ -2,7 +2,6 @@
 import * as React from 'react';
 import Cursor from '@/components/cursor';
 import NavBar from '@/components/navbar';
-import ButtonScrollTop from '@/components/backtotop';
 
 export const GlobalContext = React.createContext(null);
 
