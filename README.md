@@ -41,4 +41,4 @@ npx cypress run
 -------------------
 ## Remarks
 
-**Note**: Although I wrote the entirety of the code myself I am by no means a designer nor intend to be one, this portfolio is only to display my projects and (hopefully) future research. Hence, I took some visual inspiration from here: https://v4.brittanychiang.com/, 
+**Note**: Although I wrote the entirety of the code myself I am by no means a designer nor intend to be one, this portfolio is only to display my projects. Hence, I took some visual inspiration from here: https://v4.brittanychiang.com/, 
